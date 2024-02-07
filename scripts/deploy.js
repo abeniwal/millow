@@ -8,7 +8,7 @@ const hre = require("hardhat");
 const { ethers } = require('hardhat');
 
 const tokens = (n) => {
-    return ethers.utils.parseUnits(n.toString(), 'ether');
+  return ethers.utils.parseUnits(n.toString(), 'ether');
 }
 
 async function main() {
